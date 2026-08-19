@@ -15,7 +15,6 @@ std::string ssr_htm_top(){
     <title>HTMX Todo App</title>
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="/js/client.js"></script>
   </head>
   <body class="bg-stone-100 min-h-screen flex justify-center text-stone-900 font-sans">
     <div class="max-w-3xl mx-auto p-4 py-12" hx-get="/api/todo/list" hx-trigger="load" hx-swap="outerHTML">
