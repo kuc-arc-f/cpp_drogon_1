@@ -1,10 +1,10 @@
 ﻿# cpp_drogon_1
 
- Version: 0.9.1
+ Version: 0.9.2
 
  date    : 2026/08/19
  
- update :
+ update : 2026/08/21
 
 ***
 
@@ -42,11 +42,13 @@ make
 ```
 
 * start
-* localhost:5555
 
 ```
 ./build/drogon_4
 ```
+***
+### version
+* V_0_9_1 : new
 
 ***
 ### blog

@@ -56,9 +56,8 @@ private:
         try{
             MyDb db_helper(DB_PATH);
             auto todos = db_helper.list("all");
-            //MySsr sLib("");
-            std::string resp = renderTodoList(todos);
-            ret = resp;
+            //std::string resp = renderTodoList(todos);
+            //ret = resp;
             return ret;
         } catch (const std::exception& e) {
             std::cout << "Error , main" << std::endl;
@@ -96,8 +95,8 @@ private:
             }
             std::cout << "[" << item.id << "] " << item.title << "\n";
         }
-
-        std::string out = renderDialog(row);
+        MySsr sLib("");
+        std::string out = sLib.renderDialog(row);
         ret = out;
         return ret;
     }       
